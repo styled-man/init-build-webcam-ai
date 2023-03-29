@@ -7,7 +7,7 @@ export default ({ emoji, percentage }) => {
             <span className="bg-blue-400 h-4 w-full rounded-md overflow-hidden">
                 <div
                     style={{ width: `${percentage}%` }}
-                    className="bg-blue-700 h-4 w-full rounded-l-md"
+                    className="bg-blue-700 h-4 w-full rounded-l-md transition-[width] ease-in-out duration-300"
                 />
             </span>
             <h3 className="w-10 text-right">{percentage}%</h3>
